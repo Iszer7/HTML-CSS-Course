@@ -1,0 +1,51 @@
+<!--Los elementos semanticos son aquellos que definen cual es el contenido que tendran dentro, y les sirven a los buscadores y-->
+<!--Los elementos NO semanticos son los que no definen cual sera el contenido que tienen dentro-->
+
+<!--DIV sirve de contenedor para cualquier elemento, NO tiene sentido semantico-->
+<!--HEADER nos permite establecer el encabezado de nuestra pagina web-->
+<!--NAV nos permite definir un conjunto de enlaces de navegacion-->
+<!--SECTION define una seccion en un documento que puede contener un grupo de contenido-->
+<!--ARICLE define un articulo-->
+<!--ASIDE nos permite definir un area de contenido independiente al principal, como el sidebar-->
+<!--FOOTER nos permite establecer el pie de pagina de un documento-->
+<!DOCTYPE html>
+
+<html lang="es">                <!--Especifico el idioma-->
+
+  <head>                        <!--No se ve visualmente pero podes poner descriciones de la pagina para posicionarla en las busquedas de google-->
+    <meta charset="utf-8" />    <!--el charset utf-8 sirve para que podamos interpretar atraves del navegador todo tipo de caracteres-->
+    <meta desciption="Aqui va la descripcion del sitio, y es lo que aparece en las busquedas de google"/>
+    <title>Este es el titulo de la página</title>
+  </head>
+
+  <body>
+    <header>                       <!--Es el encabezado dentro del cuerpo-->
+      <h1>Este es el título de mi web</h1>
+      <figure>                     <!--Viene una figura (logo)-->
+        Aqui va nuestro logo
+        <figcaption>Titulo de nuestro logo</figcaption>
+      </figure>
+    </header>
+
+    <nav>                          <!--Navegador, la botonera de arriba-->
+      Aquiva nuestro menú
+    </nav>
+
+    <section>                      <!--Funciona como el div-->
+      <hgroup>                     <!--Para agregar mas de un h (h1,h2,h3). Asi el encabezado principar no pierde relevancia-->
+        <h1>Mi encabezado secundario</h1>
+        <h2>Este es un sub encabezado de tipo h2</h2>
+      </hgroup>
+      <article>                    <!--Se puede poner otro section para delimitar otra pagina dentro de mi pag web-->
+        Este es un artículo de contenido
+        <section>
+          Esta es otra sección dentro de un artículo.
+        </section>
+      </article>
+    </section>
+
+    <footer>                        <!--Va en el pie de la pagina-->
+      Aprendiendo HTML5
+    </footer>
+  </body>
+</html>

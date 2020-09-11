@@ -1,0 +1,18 @@
+/* superman.com | una pagina para superman porque si */
+
+/* TEAM */
+	Creator: Diego Kippes
+	Contact: superman [at] pepe.com
+	Twitter: @puesSupermanQuienMas
+	From: Krypton city, Krypton
+
+/* IN MEMORIAL */
+	Jor-EL
+
+/* THANKS */
+	Pepe, Phantom, Jonny
+	
+/* SITE */
+	Last update: 2020/08/14
+	Language: Españolitis
+	
